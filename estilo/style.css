@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor00:#00a9a4;
+    --cor01:#ebf5fc;
+    --cor03:#a8d9fc;
+}
+
+body{
+    background-color: #bee0df;
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor00), var(--cor03));
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header > h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 5px black;
+}
+
+header > p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px black;
+    max-width: 100%;
+    min-width: 320px;
+}
+
+
+nav{
+    background-color: var(--cor00);
+    height: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.811);
+}
+
+
+nav > a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+    margin-top: 2px;
+    text-align: center;
+    padding: 2px;
+    width: 100px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover{
+    background-color: #bee0df;
+    color: black;
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.587);
+}
+
+main h1, h2{
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, var(--cor00),transparent);
+    text-indent: 5px;
+}
+
+    
+main p{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main > h1, h2, p, img{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.video{
+    background-color: var(--cor00);
+    border: 0px solid black;
+    margin: 0 -10px ;
+    padding: 10px;
+}
+
+aside{
+    background-color: #bee0df;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+}
+
+aside > h3{
+    text-indent: 5px;
+    margin: -10px -10px 0 -10px;
+    background-color: #00b1ae;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#lista{
+    display: block;
+    list-style-position: inside;
+    columns: 2;
+}
+
+li{
+    list-style-type: none;
+}
+
+    
+
+footer{
+    background-color: #00a9a4;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+
+
