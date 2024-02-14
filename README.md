@@ -1,2 +1,4 @@
 # desafio010-fazendo-com-o-professor
- Curso de html5 3 css3
+ Curso de html5 3 css3.
+
+Estou aprendendo a gerenciar o github.
