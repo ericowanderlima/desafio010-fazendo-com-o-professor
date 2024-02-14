@@ -49,6 +49,7 @@ header > p{
 
 
 nav{
+    display: flex;
     background-color: var(--cor00);
     height: 25px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.811);
@@ -59,17 +60,16 @@ nav > a{
     display: inline-block;
     text-decoration: none;
     color: white;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 2px;
     text-align: center;
     padding: 2px;
-    width: 100px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     transition-duration: 0.3s;
 }
 
 nav > a:hover{
-    background-color: #bee0df;
+    background-color: white;
     color: black;
 }
 
