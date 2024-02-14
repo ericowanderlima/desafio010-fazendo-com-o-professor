@@ -51,7 +51,6 @@ header > p{
 nav{
     display: flex;
     background-color: var(--cor00);
-    height: 25px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.811);
 }
 
